@@ -12,3 +12,53 @@
     margin: 0;
     padding: 0;
 }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+section{
+    border: solid 2px var(--cor-secundaria);
+    border-radius: 40px;
+    padding: 80px;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+    
+}
+
+#about-me img{
+    border-radius: 40px;
+}
+
+#box-about{
+    display: flex;
+    gap: 20px;
+}
+
+#box-about div{
+    width: 200px;
+    text-align: justify;
+}
