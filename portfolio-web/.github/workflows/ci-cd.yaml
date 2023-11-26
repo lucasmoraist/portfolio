@@ -51,3 +51,4 @@ jobs:
       - name: Deploy to S3
         run: |
           aws s3 sync ./dist/portfolio-web s3://lucasmoraisdev/
+          
