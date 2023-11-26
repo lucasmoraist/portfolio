@@ -1,0 +1,14 @@
+button{
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+
+    color: var(--btn-txt-color);
+    background: var(--background-gradient);
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
