@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--dark-color);
+}
+
+p {
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    border-left: solid 4px #023E8A;
+    padding-left: 18px;
+}
+
+@media screen and (min-width: 1080px){
+    section div{
+        flex-direction: row;
+    }
+}
