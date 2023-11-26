@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HomeComponent } from './home.component';
@@ -10,6 +10,9 @@ import { SectionAboutComponent } from 'src/app/shared/section-about/section-abou
 import { SectionContactComponent } from 'src/app/shared/section-contact/section-contact.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
 import { SectionProjectsComponent } from 'src/app/shared/section-projects/section-projects.component';
+import { GmailContactComponent } from 'src/app/shared/gmail-contact/gmail-contact.component';
+import { LinkedinContactComponent } from 'src/app/shared/linkedin-contact/linkedin-contact.component';
+import { GithubContactComponent } from 'src/app/shared/github-contact/github-contact.component';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -20,13 +23,19 @@ import { SectionProjectsComponent } from 'src/app/shared/section-projects/sectio
     SectionAboutComponent, //seção sobre mim
     SectionProjectsComponent,
     SectionContactComponent, //seção com contatos
-    FooterComponent //rodapé
+    FooterComponent, //rodapé
+
+    //Contatos
+    LinkedinContactComponent,
+    GmailContactComponent,
+    GithubContactComponent,
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
   bootstrap: [],
-  exports: [HomeComponent]
+  exports: [HomeComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class HomeModule { }
