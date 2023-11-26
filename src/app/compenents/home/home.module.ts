@@ -6,6 +6,7 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { BtnPrimaryComponent } from '../../shared/btn-primary/btn-primary.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { MainImageComponent } from 'src/app/shared/main-image/main-image.component';
+import { SectionAboutComponent } from 'src/app/shared/section-about/section-about.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MainImageComponent } from 'src/app/shared/main-image/main-image.compone
     HeaderComponent,
     BtnPrimaryComponent,
     MainSectionComponent,
-    MainImageComponent
+    MainImageComponent,
+    SectionAboutComponent
   ],
   imports: [
     BrowserModule
