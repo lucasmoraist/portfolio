@@ -4,6 +4,6 @@
 :root{
     --background-gradient: linear-gradient(90deg, rgba(2,62,138,1) 39%, rgba(72,202,228,1) 100%);
     --btn-txt-color: #dbffff;
-    --span-color: #151717;
+    --dark-color: #151717;
     --font-montserrat: 'Montserrat', sans-serif;
 }
