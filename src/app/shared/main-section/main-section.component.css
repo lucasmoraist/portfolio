@@ -18,7 +18,12 @@ span{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
-    color: var(--span-color);
+    color: var(--dark-color);
+    font-family: var(--font-montserrat);
+}
+p {
+    font-size: 16px;
+    color: #1f2626;
     font-family: var(--font-montserrat);
 }
 
