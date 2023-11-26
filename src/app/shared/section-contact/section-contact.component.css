@@ -1,0 +1,20 @@
+h2{
+    margin-bottom: 52px;
+    color: var(--dark-color);
+    font-family: var(--font-montserrat);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.redes{
+    display: flex;
+    gap: 18px;
+}
+
+p{
+    text-align: center;
+    color: #1F2626;
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-weight: 400;
+} 
