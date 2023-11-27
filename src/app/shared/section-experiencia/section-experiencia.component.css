@@ -1,0 +1,37 @@
+#experience{
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+#info p, h3{
+    margin: 0;
+}
+
+#info h3{
+    color: var(--dark-color);
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p{
+    color: #1F2626;
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#descricao{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    box-shadow: 0.61667px 0.61667px 9.86667px 0px rgba(40, 38, 44, 0.15);
+}
