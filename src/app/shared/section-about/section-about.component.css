@@ -17,9 +17,22 @@ h2 {
 
 p {
     font-family: var(--font-montserrat);
+    color: var(--dark-color);
     font-size: 16px;
     border-left: solid 4px #023E8A;
     padding-left: 18px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+a{
+    color: var(--dark-color);
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+}
+
+a:hover{
+    color: #023E8A;
 }
 
 @media screen and (min-width: 1080px){
