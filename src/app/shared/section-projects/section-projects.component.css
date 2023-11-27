@@ -13,13 +13,9 @@ h3 {
 }
 
 #container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* Duas colunas com largura igual */
-    grid-template-rows: repeat(2, 1fr);
-    /* Duas linhas com altura igual */
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-    /* Espaço entre as células do grid */
     padding: 20px;
 }
 
@@ -67,4 +63,13 @@ a{
 
     border: none;
     border-radius: 8px;
+}
+
+@media screen and (min-width: 1080px){
+    #container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
 }
