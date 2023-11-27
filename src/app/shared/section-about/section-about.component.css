@@ -18,16 +18,6 @@ p {
     text-align: justify;
 }
 
-a{
-    color: var(--dark-color);
-    font-family: var(--font-montserrat);
-    font-size: 16px;
-}
-
-a:hover{
-    color: #023E8A;
-}
-
 @media screen and (min-width: 1080px){
     section div{
         flex-direction: row;
