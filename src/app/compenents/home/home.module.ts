@@ -13,6 +13,7 @@ import { GithubContactComponent } from 'src/app/shared/github-contact/github-con
 import { LinkedinContactComponent } from 'src/app/shared/linkedin-contact/linkedin-contact.component';
 import { GmailContactComponent } from 'src/app/shared/gmail-contact/gmail-contact.component';
 import { SectionAboutComponent } from 'src/app/shared/section-about/section-about.component';
+import { SectionExperienciaComponent } from 'src/app/shared/section-experiencia/section-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SectionAboutComponent } from 'src/app/shared/section-about/section-abou
     MainSectionComponent,
     MainImageComponent,
     SectionAboutComponent,
+    SectionExperienciaComponent,
     SectionProjectsComponent,
     SectionContactComponent,
     FooterComponent,
