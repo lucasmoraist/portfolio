@@ -8,13 +8,6 @@ section div{
     flex-direction: column;
 }
 
-h2 {
-    font-family: var(--font-montserrat);
-    font-weight: 600;
-    font-size: 24px;
-    color: var(--dark-color);
-}
-
 p {
     font-family: var(--font-montserrat);
     color: var(--dark-color);
