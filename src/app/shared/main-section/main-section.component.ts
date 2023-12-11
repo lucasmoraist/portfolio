@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UploadFileService } from './upload-file/upload-file.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'main-section',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class MainSectionComponent {
 
+  constructor(private service: UploadFileService) { }
+
+  downloadCV() {
+    this.service.download(environment.API + "/downloadCV")
+      .subscribe((res: any) => this.service.handleFile(res, 'Currículo.pdf'));
+  }
 }
