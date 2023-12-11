@@ -14,6 +14,7 @@ import { LinkedinContactComponent } from 'src/app/shared/linkedin-contact/linked
 import { GmailContactComponent } from 'src/app/shared/gmail-contact/gmail-contact.component';
 import { SectionAboutComponent } from 'src/app/shared/section-about/section-about.component';
 import { SectionExperienciaComponent } from 'src/app/shared/section-experiencia/section-experiencia.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,10 +32,11 @@ import { SectionExperienciaComponent } from 'src/app/shared/section-experiencia/
     //Contatos
     GithubContactComponent,
     LinkedinContactComponent,
-    GmailContactComponent
+    GmailContactComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [],
