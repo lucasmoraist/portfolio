@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
   origin: '*',
+  credentials:true,
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
