@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { UploadFileService } from './upload-file/upload-file.service';
 import { environment } from 'src/environments/environment';
+import { DownloadServiceService } from './service/download-service.service';
+
 
 @Component({
   selector: 'main-section',
@@ -9,10 +10,11 @@ import { environment } from 'src/environments/environment';
 })
 export class MainSectionComponent {
 
-  constructor(private service: UploadFileService) { }
+  constructor(private downloadServiceService: DownloadServiceService) {}
 
-  downloadCV() {
-    this.service.download(environment.API + "/downloadCV")
-      .subscribe((res: any) => this.service.handleFile(res, 'Currículo.pdf'));
+  downloadPdf(): void {
+    const pdfUrl = 'https://portfolio-web-lucas.s3.amazonaws.com/Curr%C3%ADculo.pdf';
+    this.downloadServiceService.downloadPdfFromUrl(pdfUrl);
   }
+
 }
