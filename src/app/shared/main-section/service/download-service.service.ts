@@ -14,7 +14,7 @@ export class DownloadServiceService {
     this.http.get(pdfUrl, { responseType: 'arraybuffer' })
       .subscribe((data: ArrayBuffer) => {
         // Quando a resposta é recebida, chama a função para iniciar o download do arquivo
-        this.downloadFile(data, 'My_CV.pdf');
+        this.downloadFile(data, 'Lucas_CV.pdf');
       });
   }
 
