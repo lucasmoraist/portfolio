@@ -1,9 +1,0 @@
-svg{
-    width: 298px;
-}
-
-@media screen and (min-width: 1080px){
-    svg{
-        width: 350px;
-    }
-}
