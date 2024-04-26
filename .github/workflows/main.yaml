@@ -25,6 +25,10 @@ jobs:
       - name: Build React Project
         run: npm run deploy
 
+      - name: Set email and name
+        run: git config --global user.email ${{ secrets.EMAIL }}
+        run: git config --global user.name ${{ secrets.NAME }}
+
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v1
 
