@@ -35,7 +35,7 @@ const Header = () => {
 
             <h1>Software <span>Developer</span></h1>
             <div>
-                <button><a href="https://drive.google.com/file/d/1pM9JVgcMJnlXiFmEEJCUI2wKUNdoK4m_/view" target="_blank" rel="noreferrer">Download CV</a></button>
+                <button><a href="https://drive.google.com/file/d/1bNclO-7w8wUUprVn00CfM8v_sHGYCCjE/view" target="_blank" rel="noreferrer">Download CV</a></button>
             </div>
         </div>
     </HeaderStyled>
