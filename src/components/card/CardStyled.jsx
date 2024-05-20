@@ -6,7 +6,8 @@ const CardStyled = styled.div`
         .card{
             width: 390px;
             height: 301px;
-        }    
+        }
+            
         .card-back p{
             width: 339px;
         }  
@@ -118,7 +119,6 @@ const CardStyled = styled.div`
 
     .card-back{
         justify-content: space-between;
-        padding: 20px 0;
     }
 
     .card-back div:first-child{
@@ -133,6 +133,7 @@ const CardStyled = styled.div`
         font-family: var(--poppins);
         font-weight: 600;
         color: var(--secondary-text);
+        margin-top: 20px;
     }
 
     a {
@@ -153,6 +154,7 @@ const CardStyled = styled.div`
         align-items: center;
         justify-content: center;
         background-color: var(--primary-color);
+        margin-bottom: 20px;
     }
 `
 
