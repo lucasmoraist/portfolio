@@ -1,9 +1,9 @@
 import codechella from '../assets/codechella.svg';
 import grafico from '../assets/grafico.svg';
-import certificate from '../assets/api-certificate.png';
+import certificate from '../assets/api-certificate.jpg';
 import ecomarket from '../assets/ecomarket.png';
-import viacep from '../assets/api-viacep.jpeg';
-import jornada from '../assets/api-jornada.jpeg';
+import viacep from '../assets/api-viacep.png';
+import jornada from '../assets/api-jornada.png';
 
 const Projetos = [
     {
