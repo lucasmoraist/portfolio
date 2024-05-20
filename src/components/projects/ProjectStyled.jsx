@@ -2,7 +2,15 @@ import styled from "styled-components";
 
 const ProjectStyled = styled.div`
 
-    @media screen and (min-width: 976px) {
+    @media screen and (min-width: 1026px) {
+        #card-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    }
+
+    @media screen and (min-width: 976px) and (max-width: 1025px) {
         #card-grid{
             display: grid;
             grid-template-columns: repeat(2, 1fr);

@@ -13,6 +13,10 @@ const CardStyled = styled.div`
         #button{
             margin-left: 20px;
         }
+        #img-projeto{
+            width: 100%;
+            height: 240px;
+        }
     }
 
     /* Tela para tablet */
@@ -23,7 +27,7 @@ const CardStyled = styled.div`
         }
 
         .card-back{
-            height: 270px
+            height: 220px
         }
 
         .card-front{
@@ -32,11 +36,11 @@ const CardStyled = styled.div`
 
         #img-projeto{
             width: 320px;
+            height: 200px;
         }
 
         .card-back p{
             width: 220px;
-            height: 180px;
         }
 
         #button{
@@ -49,24 +53,22 @@ const CardStyled = styled.div`
     @media screen and (max-width: 767px){
         .card{
             width: 280px;
-            gap: 20px;
         }
 
         .card-back{
-            height: 300px;
+            height: 220px;
         }
 
         .card-front{
-            height: 260px;
         }
 
         #img-projeto{
-            width: 280px;
+            width: 100%;
+            height: 175px;
         }
 
         .card-back p{
             width: 220px;
-            height: 180px;
         }
 
         #button{
@@ -83,7 +85,6 @@ const CardStyled = styled.div`
         background-color: var(--card-color);
         display: flex;
         flex-direction: column;
-        
     }
 
     .card-front{
@@ -118,7 +119,6 @@ const CardStyled = styled.div`
     .card-back{
         justify-content: space-between;
         padding: 20px 0;
-        height: 264px;
     }
 
     .card-back div:first-child{
