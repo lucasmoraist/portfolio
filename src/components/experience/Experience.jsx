@@ -22,18 +22,6 @@ const Experience = () => {
             </div>
 
             <p>{lista[2]}</p>
-
-            {/* Carreira em construção
-                <div className="fita">
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-                <div className="black"></div>
-            </div> */}
         </div>
     </ExperienceStyled>
 }
