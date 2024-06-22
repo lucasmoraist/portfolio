@@ -1,161 +1,83 @@
 import styled from "styled-components";
 
 const CardStyled = styled.div`
+  margin: 30px 0;
 
-    @media screen and (min-width: 976px) {
-        .card{
-            width: 390px;
-            height: 301px;
-        }
-            
-        .card-back p{
-            width: 339px;
-        }  
-        #button{
-            margin-left: 20px;
-        }
-        #img-projeto{
-            width: 100%;
-            height: 240px;
-        }
-    }
+  .card {
+    border-radius: 18px;
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 100%;
+    cursor: pointer;
+  }
 
-    /* Tela para tablet */
-    @media screen and (min-width: 768px) and (max-width: 975px){
-        .card{
-            width: 320px;
-            gap: 10px;
-        }
+  img {
+    border-radius: 18px 18px 0 0;
+  }
 
-        .card-back{
-            height: 220px
-        }
+  .img-projeto {
+    width: 100%;
+    height: 175px;
+  }
 
-        .card-front{
-            height: 260px;
-        }
+  .know-more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 25px;
+  }
 
-        #img-projeto{
-            width: 320px;
-            height: 200px;
-        }
+  .know-more div p {
+    font-family: var(--poppins);
+    font-weight: 300;
+    font-size: 10px;
+    color: var(--secondary-text);
+  }
 
-        .card-back p{
-            width: 220px;
-        }
+  .know-more div h2 {
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--primary-color);
+  }
 
-        #button{
-            margin-left: 50px;
-        }
-    
-    }
+  .description-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    /* Tela para celular */
-    @media screen and (max-width: 767px){
-        .card{
-            width: 280px;
-        }
+  .description-wrapper p {
+    font-size: 14px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: var(--secondary-text);
+    margin-top: 20px;
+    width: 220px;
+  }
 
-        .card-back{
-            height: 220px;
-        }
+  a {
+    text-decoration: none;
+    font-size: 19px;
+    font-family: var(--poppins);
+    font-weight: 800;
+    background: var(--orange-gradient);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 
-        .card-front{
-        }
-
-        #img-projeto{
-            width: 100%;
-            height: 175px;
-        }
-
-        .card-back p{
-            width: 220px;
-        }
-
-        #button{
-            margin-left: 30px;
-        }
-    
-    }
-
-    
+  .btn {
+    display: flex;
+    width: 134px;
+    height: 34px;
+    border-radius: 10px;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 80px;
-    .card{
-        border-radius: 18px;
-        background-color: var(--card-color);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-front{
-        gap: 8px;
-    }
-
-    img {
-        border-radius: 18px;
-    }
-
-    #know-more{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 25px;
-    }
-
-    #know-more div p{
-        font-family: var(--poppins);
-        font-weight: 300;
-        font-size: 10px;
-        color: var(--secondary-text);
-    }
-
-    #know-more div h2{
-        font-family: var(--poppins);
-        font-weight: bold;
-        font-size: 19px;
-        color: var(--primary-color);
-    }
-
-    .card-back{
-        justify-content: space-between;
-    }
-
-    .card-back div:first-child{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-back p{
-        text-align: justify;
-        font-size: 14px;
-        font-family: var(--poppins);
-        font-weight: 600;
-        color: var(--secondary-text);
-        margin-top: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        font-size: 19px;
-        font-family: var(--poppins);
-        font-weight: 800;
-        background: var(--orange-gradient);
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-
-    #button{
-        display: flex;
-        width: 134px;
-        height: 34px;
-        border-radius: 10px;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--primary-color);
-        margin-bottom: 20px;
-    }
-`
+    background-color: var(--primary-color);
+    margin: 15px 0 30px 30px;
+  }
+`;
 
 export default CardStyled;
