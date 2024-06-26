@@ -1,5 +1,5 @@
 import React from "react";
-import iconMe from '../../assets/lucas-icon.png'
+import iconMe from '../../assets/img/lucas-icon.png'
 import BackgroundIcon from "./MeStyled";
 
 const Me = () => {

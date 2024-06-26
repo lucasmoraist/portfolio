@@ -1,7 +1,7 @@
 import React from "react";
 import ExperienceStyled from "./ExperienceStyled";
 import Experiencias from '../../mocks/Experiencias'
-import sobei from '../../assets/SOBEI.png'
+import sobei from '../../assets/img/SOBEI.png'
 
 const Experience = () => {
 

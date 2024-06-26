@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CardStyled from "./CardStyled";
-import viewIcon from '../../assets/View Icon.svg'
+import viewIcon from '../../assets/svg/View Icon.svg'
 import ReactCardFlip from "react-card-flip";
 
 
